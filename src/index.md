@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://avatars.githubusercontent.com/u/105593165
+heroImage: https://avatars.githubusercontent.com/u/106341861
 tagline: Documentation for NeutronVPN services
 actionText: Quick Start →
 actionLink: /guide/
