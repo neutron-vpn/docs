@@ -70,7 +70,7 @@ Success:
     "message": "Access token sent",
     "expiresIn": 600,
     "code": "access_token_sent",
-    "token": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    "token": "very-loooooong-token"
 }
 ```
 Fail (wrong credentials):
@@ -90,7 +90,7 @@ It takes token in headers
 ### Call example
 HTTPX:
 ```
-$ httpx https://api_address/endpoint/test -h Authorization 'Bearer TOKEN'
+$ httpx https://api_address/endpoint/test -h Authorization 'Bearer very-loooooong-token'
 ```
 ### Output
 Success: 
@@ -109,15 +109,3 @@ Fail (expired token or wrong token):
     "code": "wrong_expired_token"
 }
 ```
-
-
-
-
-
-
-
-
-
-
-
-
