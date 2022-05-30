@@ -43,7 +43,7 @@ module.exports = {
       },
       {
         text: 'GitHub',
-        link: 'https://github.com/neutronvpn'
+        link: 'https://github.com/neutron-vpn'
       }
     ],
     sidebar: {
